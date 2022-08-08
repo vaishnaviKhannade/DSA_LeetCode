@@ -6,9 +6,7 @@ class Solution {
         {
             for(int k=0;k<stones.length();k++)
             {   
-                char p=jewels.charAt(j);
-                char c=stones.charAt(k);
-                if(p==c)
+                if(jewels.charAt(j)==stones.charAt(k))
                     count+=1;
             }
         }
