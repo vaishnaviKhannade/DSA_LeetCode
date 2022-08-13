@@ -4,9 +4,8 @@ class Solution {
         HashSet <Integer> s=new HashSet<>();
          for (int j=0;j<nums.length;j++)
          {
-           if(  !s.add(nums[j]))
+           if( !s.add(nums[j]))
            {
-              
                return nums[j];
            }
          }
