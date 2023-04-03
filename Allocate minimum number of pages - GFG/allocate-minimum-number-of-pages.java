@@ -71,9 +71,9 @@ class Solution
         int sum=0;
         for(int i=0;i<N;i++){
           
-           // if(sum<mid){
+            if(sum<=mid){
              sum+=arr[i];           
-          //  }
+            }
             if(sum>mid){
                  student++;
                 sum=arr[i];
